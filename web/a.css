@@ -1,0 +1,514 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+body{
+    text-align: center;
+}
+header{
+    height: 70px;
+    background: #332f2f;
+    width: 100%;
+    z-index: 10;
+    position: fixed;
+    top: 0px;
+}
+.cover-profile .cover{
+    top: 70px;
+}
+
+.ram {
+    top: 540px;
+    width: 100%;
+    height: 1580px;
+    padding: 15px 25px 0;
+    position: relative;
+    color: rgb(126, 216, 243);
+    background:#444141;
+}
+.ram h1{
+    font-size: 55px;
+    font-family:  sans-serif;
+    color: #fff;
+    font-weight: 700;
+    text-shadow: 5px 5px 8px rgb(0, 0, 0);
+
+}
+.rama {
+    top: 540px;
+    width: 100%;
+    height: 1610px;
+    padding: 10px 25px 60px;
+    position: relative;
+    color: rgb(126, 216, 243);
+    background:#444141;
+}
+.rama h1{
+    font-size: 55px;
+    font-family:  sans-serif;
+    color: #fff;
+    font-weight: 700;
+    text-shadow: 5px 5px 8px rgb(0, 0, 0);
+
+}
+
+
+
+.wrap-container{
+    width: 80%;
+    margin: 0px auto;
+
+}
+.brand-image{
+    width: 170px;
+    height: 55px;
+    padding: 10px 0px 5px 0px;
+}
+.menu ul li{
+    list-style: none;
+    display: inline;
+    color:#fff;
+    font-size: 18px;
+    padding: 20px ;
+    line-height: 3;
+}
+.menu ul li:hover{
+    background: rgba(0,0,0,0.5);
+
+}
+.menu ul a{
+    text-decoration: none;
+}
+.header-imges{
+    float: left;
+
+}
+.menu{
+    float: right;
+}
+.bn{
+   
+    width: 100%;
+    height: 500px;
+    position: fixed;
+    top: 60px;
+   overflow: hidden;
+   background: #444141
+}
+
+
+
+
+.collapse ul li{
+    list-style: none;
+    display: inline;
+    color:#fff;
+    font-size: 18px;
+    padding: 10px ;
+    line-height: 0;
+}
+.collapse ul li:hover{
+    background: rgba(0,0,0,0.5);
+
+}
+
+.header-imges{
+    float: left;
+
+}
+.collapse{
+    float: right;
+}
+
+section{
+    padding: 20px 0 0;
+}
+
+.box{
+    position: relative;
+    width: 100%;
+    height: 450px;
+    overflow: hidden;
+    margin-bottom: 30px; 
+    
+    border-radius: 10px;
+    background: #000;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.7);
+    transition: 0.5s;
+}
+.box:hover{
+    transform: translateY(-40px);
+    box-shadow: 0 50px 50px rgba(0, 0, 0, 0.5);
+}
+
+
+.box .imgBox{
+    position: relative;
+   
+}
+.box .imgBox img{
+    transition: 0.5s;
+}
+.box:hover .imgBox img{
+    opacity: 0.5;
+    transform: translateY(-30px);
+}
+.box .content{
+    position: absolute;
+    bottom: -68px;
+    left: 0;
+    padding: 20px;
+    box-sizing: border-box;
+    transition: 0.5s;
+    opacity: 1;
+   
+}
+.box:hover .content{
+    bottom: 0;
+    opacity: 1;
+}
+
+.box .content h3{
+    font-size: 48px;
+    font-family:  'Trebuchet MS', sans-serif;
+    color: #fff;
+    font-weight: 700;
+    text-shadow: 5px 5px 8px rgb(0, 0, 0);
+
+}
+.box .content p{
+    font-size: 18px;
+    font-family:  Calibri, 'Trebuchet MS', sans-serif;
+    color: #fff;
+    font-weight: 400;
+    text-shadow: 2px 2px 4px rgb(0, 0, 0);
+    
+}
+.box .content .btnD{
+    border: none;
+    background: #fe1b1b;
+    color: #fff;
+    font-size: 18px;
+    padding: 10px 20px;
+    font-weight: 700;
+    transition: 0.5s;
+
+}
+.box .content .btnD:hover{
+    background: #f7355f;
+    color: #ffffff;
+}
+
+
+.item .carousel-caption{
+    
+    bottom: -35px;
+    left: 301px;
+    
+    transition: 0.5s;
+
+}
+.item:hover .carousel-caption .btnD{
+    bottom: 10px;
+    opacity: 1;
+}
+.item:hover img{
+    opacity: 0.7;
+    background-color: rgba(17, 17, 17, 0.5);
+}
+
+
+.item:hover .carousel-caption{
+    bottom: 20px;
+    opacity: 1;
+}
+.item .carousel-caption h3{
+    font-size: 40px;
+    font-family:  'Trebuchet MS', sans-serif;
+    color: #fff;
+    font-weight: 700;
+    text-shadow: 2px 2px 10px rgb(0, 0, 0);
+
+
+}
+.item .carousel-caption h3 b{
+    font-size: 40px;
+    font-family:  'Trebuchet MS', sans-serif;
+    color: #fff;
+    font-weight: 700;
+    text-shadow: 2px 2px 10px rgb(0, 0, 0);
+
+
+}
+            
+            x-star-rating{
+                font-family: 'Ionicons';
+                font-size: 30px;
+                display: inline-flex;
+                
+                margin-bottom: 20px;
+            }
+            x-star-rating > .star::after{
+                content: '\f3ae';
+                color: wheat;
+                
+            }
+            x-star-rating > .star.full::after{
+                content: '\f2fc';
+                color: yellow;
+                
+            }
+.item .carousel-caption .btnD{
+    border: none;
+    background: #fe1b1b;
+    color: #fff;
+    font-size: 18px;
+    padding: 10px 20px;
+    font-weight: 700;
+    transition: 0.5s;
+    opacity: 0;
+
+
+}
+.item .carousel-caption .btnD:hover{
+    background: #f7355f;
+    color: #ffffff;
+}
+
+/* footer  */
+footer{
+    top: 500px;
+    width: 100%;
+    height: 500px;
+    position: relative;
+    float: bottom;
+
+}
+footer p{
+    color: #999;
+    line-height: 25px;
+}
+footer h2,h3{
+    color: #fff;
+}
+h2{
+    font-size: 18px;
+}
+.footer-top{
+    background: #111;
+    padding: 80px 0;
+}
+.segment-one h2{
+    font-family: courgette;
+    color: #fff;
+    text-transform: uppercase;
+}
+.segment-one h2:before{
+    content: '|';
+    color: #c65039;
+    padding-right: 10px;
+}
+.segment-two h2{
+    color: #fff;
+    font-family: poppins;
+    text-transform: uppercase;
+}
+.segment-two h2:before{
+    content: '|';
+    color: #c65039;
+    padding-right: 10px;
+}
+.segment-two ul{
+    margin: 0;
+    padding: 0;
+    list-style: none; 
+}
+.segment-two ul li{
+    border-bottom: 1px solid rgba(255,255,225,0.3);
+    line-height: 40px;
+}
+.segment-two ul li a{
+    color: #999;
+    text-decoration: none;
+}
+.segment-three h2{
+    color: #fff;
+    font-family: poppinns;
+    text-transform: uppercase;
+
+}
+.segment-three h2:before{
+    content: '|';
+    color: #c65039;
+    padding-right: 10px;
+}
+.segment-three a{
+    background: #494848;
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    border-radius: 50%;
+}
+.segment-three a i{
+    font-size: 20px;
+    color: #fff;
+    padding: 10px 12px;
+}
+.segment-four h2{
+    color: #fff;
+
+}
+.segment-four h2:before{
+    content: '|';
+    color: #c65039;
+    padding-right: 10px;
+}
+.segment-four form input[type=submit]{
+    background: #c65039;
+    border: none;
+    padding: 2px 15px;
+    margin-left: -5px;
+    text-transform: uppercase;
+}
+.segment-four form input[type=email]{
+    background: #ffffff;
+    border: none;
+    padding: 2px 15px;
+    margin-left: -5px;
+    text-transform: uppercase;
+}
+
+.footer-bottom-text{
+    text-align: center;
+    background: #000;
+    line-height: 75px;
+}
+
+
+
+
+
+
+
+ /* login Page  */
+
+
+
+
+ .container input[type=text], input[type=password], input[type=email], input[type=number] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    
+}
+
+/* Set a style for all buttons */
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: #f44336;
+}
+
+/* Center the image and position the close button */
+.imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+    position: relative;
+}
+
+
+
+.container {
+    padding: 16px;
+}
+
+span.psw {
+    float: right;
+    padding-top: 16px;
+}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: relative; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+ /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    padding-top: 10px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+    background-color: #fefefe;
+    margin: 0% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+    border: 1px solid rgb(80, 79, 79);
+    width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button (x) */
+.close {
+    position: absolute;
+    right: 25px;
+    top: 0;
+    color: #000;
+    font-size: 35px;
+    font-weight: bold;
+
+}
+
+.close:hover,
+.close:focus {
+    color: red;
+    cursor: pointer;
+}
+
+/* Add Zoom Animation */
+.animate {
+    -webkit-animation: animatezoom 0.6s;
+    animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+    from {-webkit-transform: scale(0)} 
+    to {-webkit-transform: scale(1)}
+}
+    
+@keyframes animatezoom {
+    from {transform: scale(0)} 
+    to {transform: scale(1)}
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+    span.psw {
+       display: block;
+       float: none;
+    }
+    .cancelbtn {
+       width: 100%;
+    }
+}
